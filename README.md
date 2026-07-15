@@ -17,6 +17,7 @@ This project builds a Machine Learning model to predict customer churn and deplo
 - Data preprocessing and feature engineering
 - Scikit-learn Pipeline
 - ColumnTransformer for preprocessing
+- Hyperparameter tuning using Optuna
 - Random Forest Classifier
 - FastAPI REST API
 - Interactive Swagger UI
@@ -34,6 +35,7 @@ This project builds a Machine Learning model to predict customer churn and deplo
 | Language | Python |
 | Data Analysis | Pandas, NumPy |
 | Machine Learning | Scikit-learn |
+| Hyperparameter Tuning | Optuna |
 | API | FastAPI |
 | API Server | Uvicorn |
 | Model Serialization | Joblib |
@@ -129,7 +131,7 @@ The following models were evaluated during experimentation:
 - AdaBoost
 - XGBoost
 
-The final deployed model is **Random Forest Classifier**.
+After evaluating multiple machine learning algorithms, Random Forest was selected as the final model. Hyperparameters were optimized using Optuna to improve model performance before deployment.
 
 ---
 
