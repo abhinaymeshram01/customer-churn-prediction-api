@@ -77,6 +77,7 @@ customer-churn-prediction-api/
 - ColumnTransformer
 - Scikit-learn Pipeline
 - Model Training
+- Hyperparameter Tuning (Optuna)
 - Model Evaluation
 - Model Serialization using Joblib
 - FastAPI Deployment
