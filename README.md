@@ -139,11 +139,11 @@ Replace the values below with your final evaluation metrics.
 
 | Metric | Score |
 |---------|------:|
-| Accuracy | XX.XX |
-| Precision | XX.XX |
-| Recall | XX.XX |
-| F1 Score | XX.XX |
-| ROC-AUC | XX.XX |
+| Accuracy | 0.77 |
+| Precision | 0.57 |
+| Recall | 0.56 |
+| F1 Score | 0.57 |
+| ROC-AUC | 0.81 |
 
 ---
 
